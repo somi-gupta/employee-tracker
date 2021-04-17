@@ -29,3 +29,32 @@ CREATE TABLE employee (
 SELECT * FROM department;
 SELECT * FROM role;
 SELECT * FROM employee;
+
+select e.id,e.first_name AS "First Name",e.last_name AS "Last Name", role.title,role.salary,department.name AS "Department",concat(m.first_name, ',' , m.last_name) AS Manager
+from employee e
+inner join employee m on m.id = e.manager_id
+left join role ON e.role_id = role.id 
+left join department on  role.department_id = department.id 
+order by e.id;
+
+select e.id,e.first_name AS "First Name",e.last_name AS "Last Name", department.name AS "Department"
+from employee e
+left join role ON e.role_id = role.id 
+left join department on  role.department_id = department.id 
+order by e.id;
+
+select e.id,e.first_name AS "First Name",e.last_name AS "Last Name",concat(m.first_name, ',' , m.last_name) AS Manager
+from employee e
+inner join employee m on m.id = e.manager_id
+order by e.id;
+
+select concat(m.first_name, ',' , m.last_name) AS Manager
+from employee e
+inner join employee m on m.id = e.manager_id
+order by e.id;
+
+select title  from role;
+
+select concat(e.first_name, ',', e.last_name) AS employee
+from employee e;
+select concat(e.first_name, ' ', e.last_name) AS employee from employee e;

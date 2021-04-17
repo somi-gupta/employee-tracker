@@ -11,3 +11,6 @@ INSERT INTO employee (first_name, last_name, role_id, manager_id)
 VALUES ('John','Doe',2,null), ('Mike','Chan',1,null), ('Ashley','Rodriguez',3, null),('Kevin','Tupik',4,null), ('Malia','Brown',2,null), ('Sarah','Lourd',3,null),('Tom','Allen',4,null),('Christian','Eckenrode',1,null);
 
 update employee SET manager_id = 4 WHERE role_id = 2;
+
+INSERT INTO employee (first_name, last_name, role_id, manager_id)
+VALUES ('Josh','Thacker',1,2)
