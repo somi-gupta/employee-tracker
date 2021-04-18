@@ -37,14 +37,17 @@ It uses MySQL and allows to scale as needed and we can further leverage employee
 - Select prompts to perform the sql function.
 
 ## Run the script via command - node server.js
-https://nodejs.org/en/.
-https://www.npmjs.com/
-https://stackoverflow.com/
-https://shields.io/.
-https://expressjs.com/
-https://www.mysql.com/
-https://www.npmjs.com/package/mysql
-https://www.npmjs.com/package/dotenv
+- https://nodejs.org/en/.
+- https://www.npmjs.com/
+- https://stackoverflow.com/
+- https://shields.io/.
+- https://expressjs.com/
+- https://www.mysql.com/
+- https://www.npmjs.com/package/mysql
+- https://www.npmjs.com/package/dotenv
+
+##Video walkthrough of how to use the application
+- https://drive.google.com/file/d/17mZubgcJ6cafe5LfHGOcSDzUpWJ87UzL/view
 
 ## Deployed application link
 https://somi-gupta.github.io/employee-tracker/
