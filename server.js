@@ -24,9 +24,9 @@ const runSearch = () => {
       type: "list",
       message: "What would you like to do?",
       choices: [
-        "Veiw all employees",
-        "Veiw all employees by department",
-        "Veiw all employees by manager",
+        "View all employees",
+        "View all employees by department",
+        "View all employees by manager",
         "Add employee",
         "Remove employee",
         "Update employee role",
@@ -36,13 +36,13 @@ const runSearch = () => {
     })
     .then((answer) => {
       switch (answer.action) {
-        case "Veiw all employees":
+        case "View all employees":
           findAllEmp();
           break;
-        case "Veiw all employees by department":
+        case "View all employees by department":
           findAllEmpByDept();
           break;
-        case "Veiw all employees by manager":
+        case "View all employees by manager":
           findAllEmpByManager();
           break;
         case "Add employee":
