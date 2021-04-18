@@ -4,7 +4,16 @@
 Employee Tracker
 
 ## Description 
-- 
+Employee Tracker is a command line interface applicaiton for managing employees data. It allows you to 
+    1. View employee data        
+    2. View all employees by department
+    3. View employees by manager
+    4. Add an employee
+    5. Remove employee
+    6. Update employee role
+    7. Update employee manager
+      
+It uses MySQL and allows to scale as needed and we can further leverage employee data without affecting the core data. You can manage all the data using simple CLI.
 
 ## Table of Contents
 [Installation](#installation)
